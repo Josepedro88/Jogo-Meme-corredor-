@@ -1,23 +1,4 @@
-# Jogo-Meme-corredor-
-Jogo para aqueles que querem se divertir 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Corrida do Tralaverso</title>
-    <style>
-        body { margin: 0; padding: 0; overflow: hidden; }
-        canvas { display: block; background: #ddd; }
-    </style>
-</head>
-<body>
-    <canvas id="gameCanvas"></canvas>
-    <script>
-        const canvas = document.getElementById('gameCanvas');
-        const ctx = canvas.getContext('2d');
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
+
 
         let player = {
             x: 100,
